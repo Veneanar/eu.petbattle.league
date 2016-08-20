@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "eu.petbattle.league", "eu.petbattle.league.phpproj", "{D4516406-1AC2-487B-8BC8-D7C078067009}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "wsc 3.0", "..\dev\wsc\wsc 3.0.phpproj", "{45819885-77C6-47BD-9615-C23A9E8B77B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4516406-1AC2-487B-8BC8-D7C078067009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4516406-1AC2-487B-8BC8-D7C078067009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45819885-77C6-47BD-9615-C23A9E8B77B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45819885-77C6-47BD-9615-C23A9E8B77B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

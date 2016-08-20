@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+	
+	<category name="wcf.system">
+		<item name="wcf.system.petbattle.wowheadURL"><![CDATA[de.wowhead.com/]]></item>
+		<item name="wcf.system.petbattle.ArsenalURL"><![CDATA[/wow/de/character/]]></item>
+		<item name="wcf.system.petbattle.bnetLangCode"><![CDATA[de_DE]]></item>
+		<item name="wcf.system.petbattle.country.AL"><![CDATA[Albanien]]></item>
+		<item name="wcf.system.petbattle.country.AD"><![CDATA[Andorra]]></item>
+		<item name="wcf.system.petbattle.country.AT"><![CDATA[Österreich]]></item>
+		<item name="wcf.system.petbattle.country.BY"><![CDATA[Belarus]]></item>
+		<item name="wcf.system.petbattle.country.BE"><![CDATA[Belgien]]></item>
+		<item name="wcf.system.petbattle.country.BA"><![CDATA[Bosnien und Herzegowina]]></item>
+		<item name="wcf.system.petbattle.country.BG"><![CDATA[Bulgarien]]></item>
+		<item name="wcf.system.petbattle.country.HR"><![CDATA[Kroatien]]></item>
+		<item name="wcf.system.petbattle.country.CY"><![CDATA[Zypern]]></item>
+		<item name="wcf.system.petbattle.country.CZ"><![CDATA[Tschechische Republik]]></item>
+		<item name="wcf.system.petbattle.country.DK"><![CDATA[Dänemark]]></item>
+		<item name="wcf.system.petbattle.country.EE"><![CDATA[Estland]]></item>
+		<item name="wcf.system.petbattle.country.FO"><![CDATA[Färöer]]></item>
+		<item name="wcf.system.petbattle.country.FI"><![CDATA[Finnland]]></item>
+		<item name="wcf.system.petbattle.country.FR"><![CDATA[Frankreich]]></item>
+		<item name="wcf.system.petbattle.country.DE"><![CDATA[Deutschland]]></item>
+		<item name="wcf.system.petbattle.country.GI"><![CDATA[Gibraltar]]></item>
+		<item name="wcf.system.petbattle.country.GR"><![CDATA[Griechenland]]></item>
+		<item name="wcf.system.petbattle.country.GL"><![CDATA[Grönland]]></item>
+		<item name="wcf.system.petbattle.country.HU"><![CDATA[Ungarn]]></item>
+		<item name="wcf.system.petbattle.country.IS"><![CDATA[Island]]></item>
+		<item name="wcf.system.petbattle.country.IE"><![CDATA[Irland]]></item>
+		<item name="wcf.system.petbattle.country.IT"><![CDATA[Italien]]></item>
+		<item name="wcf.system.petbattle.country.LV"><![CDATA[Lettland]]></item>
+		<item name="wcf.system.petbattle.country.LI"><![CDATA[Liechtenstein]]></item>
+		<item name="wcf.system.petbattle.country.LT"><![CDATA[Litauen]]></item>
+		<item name="wcf.system.petbattle.country.LU"><![CDATA[Luxemburg]]></item>
+		<item name="wcf.system.petbattle.country.MK"><![CDATA[Mazedonien]]></item>
+		<item name="wcf.system.petbattle.country.MT"><![CDATA[Malta]]></item>
+		<item name="wcf.system.petbattle.country.MD"><![CDATA[Moldawien]]></item>
+		<item name="wcf.system.petbattle.country.MC"><![CDATA[Monaco]]></item>
+		<item name="wcf.system.petbattle.country.NL"><![CDATA[Niederlande]]></item>
+		<item name="wcf.system.petbattle.country.NO"><![CDATA[Norwegen]]></item>
+		<item name="wcf.system.petbattle.country.PL"><![CDATA[Polen]]></item>
+		<item name="wcf.system.petbattle.country.PT"><![CDATA[Portugal]]></item>
+		<item name="wcf.system.petbattle.country.RO"><![CDATA[Rumänien]]></item>
+		<item name="wcf.system.petbattle.country.RU"><![CDATA[Russland]]></item>
+		<item name="wcf.system.petbattle.country.SM"><![CDATA[San Marino]]></item>
+		<item name="wcf.system.petbattle.country.RS"><![CDATA[Serbien]]></item>
+		<item name="wcf.system.petbattle.country.SK"><![CDATA[Slowakei]]></item>
+		<item name="wcf.system.petbattle.country.SI"><![CDATA[Slowenien]]></item>
+		<item name="wcf.system.petbattle.country.ES"><![CDATA[Spanien]]></item>
+		<item name="wcf.system.petbattle.country.SE"><![CDATA[Schweden]]></item>
+		<item name="wcf.system.petbattle.country.CH"><![CDATA[Schweiz]]></item>
+		<item name="wcf.system.petbattle.country.TR"><![CDATA[Türkei]]></item>
+		<item name="wcf.system.petbattle.country.UA"><![CDATA[Ukraine]]></item>
+		<item name="wcf.system.petbattle.country.GB"><![CDATA[Großbritannien]]></item>
+		<item name="wcf.system.petbattle.country.VA"><![CDATA[Vatikanstadt]]></item>
+		<item name="wcf.system.petbattle.country.IM"><![CDATA[Isle of Man]]></item>
+		<item name="wcf.system.petbattle.country.RS-KM"><![CDATA[Kosovo]]></item>
+		<item name="wcf.system.petbattle.country.ME"><![CDATA[Montenegro]]></item>
+
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.bnet.connect.error.inuse"><![CDATA[Bereits eingelogt.]]></item>
+	</category>
+	<category name="wcf.page">
+
+		<item name="wcf.page.petbattle.register"><![CDATA[Registrieren]]></item>
+		<item name="wcf.page.petbattle.register.charselect"><![CDATA[Avatar auswählen]]></item>
+		<item name="wcf.page.petbattle.register.charselectinfo"><![CDATA[Dieser Charakter wird als Avatar verwendet. Der Avantar wird zum Beispiel neben Kommentaren angezeigt. Wenn Du möchtest kannst du deinen Hauptcharakter benutzen. Bitte wähle NICHT den deinen Turniercharakter aus. Aus technischen Gründen kann es sein, dass nicht alle niedrigstufigen Charaktere zur Auswahl stehen.]]></item>
+		<item name="wcf.page.petbattle.register.nochars"><![CDATA[Keine aktiven Chars gefunden]]></item>
+		<item name="wcf.page.petbattle.TournamentRegister"><![CDATA[Trunieranmeldung]]></item>
+		<item name="wcf.page.bnet.tornamentregister.title"><![CDATA[Anmelden]]></item>
+
+		<item name="wcf.page.petbattle.Tournament"><![CDATA[Trunier]]></item>
+		<item name="wcf.page.petbattle.Tournament.title"><![CDATA[Turnierübersicht]]></item>
+		<item name="wcf.page.petbattle.Tournament.content"><![CDATA[Alles über die Turniere]]></item>
+		
+		<item name="wcf.page.petbattle.tornamentregister.error_nopet"><![CDATA[Kein Kampfhaustier ausgewählt]]></item>
+		<item name="wcf.page.petbattle.tornamentregister.error_lowpet"><![CDATA[Du musst mindestens 6 Kampfhaustiere auswählen]]></item>
+		<item name="wcf.page.petbattle.tornamentregister.error_highpet"><![CDATA[Du darfst nicht mehr als 12 Kampfhaustiere auswählen]]></item>
+		<item name="wcf.page.petbattle.tornamentregister.error_nochar"><![CDATA[Du hast keinen Charakter ausgewählt]]></item>
+
+		<item name="wcf.page.petbattle.tornamentregister.rules"><![CDATA[Mit der Anmeldung akzeptierst du die Turierregeln. Nachzulesen hier: ]]></item>
+		<item name="wcf.page.petbattle.tornamentregister.ruleslink"><![CDATA[Regelnübersicht]]></item>
+		<item name="wcf.page.petbattle.tornamentregister.ruleslinkktitel"><![CDATA[Regeln der deutschen Petbattle Meisterschaft]]></item>
+
+
+		<item name="wcf.page.bnet.tornamentregister.searchhint"><![CDATA[Suchbegriff]]></item>
+
+		<item name="wcf.page.bnet.tornamentregister.searchfilter"><![CDATA[Filter]]></item>
+		<item name="wcf.page.bnet.tornamentregister.selectpets.description"><![CDATA[Bitte wähle deine Turnierpets aus. Du musst mindestens 6 jedoch maximal 12 Pets anmelden. Du kannst von dem gleichen Pet im Turnier beliebig viele benutzen.]]></item>
+		<item name="wcf.page.bnet.tornamentregister.selectpets"><![CDATA[Pets auswählen]]></item>
+		<item name="wcf.page.bnet.tornamentregister.selectedpets"><![CDATA[Ausgewählte Pets]]></item>
+		<item name="wcf.page.bnet.tornamentregister.charinfo"><![CDATA[Angaben zum Charakter]]></item>
+		<item name="wcf.page.bnet.tornamentregister.refershdata"><![CDATA[Daten Aktualisieren:]]></item>
+		<item name="wcf.page.bnet.tornamentregister.refershdata.description"><![CDATA[Wenn du einen neuen niedrigstufigen Charakter auf der Forscherliga oder die nachtwache erstellt hast, dann müssen alle World of Warcraft Charaktere neu geladen werden. Dies wurd einige Zeit dauern.]]></item>
+		<item name="wcf.page.bnet.tornamentregister.charname"><![CDATA[Charakter: ]]></item>
+		<item name="wcf.page.bnet.tornamentregister.tornamentpets"><![CDATA[Turnierpets]]></item>
+		<item name="wcf.page.bnet.tornamentregister.avaublepets"><![CDATA[Verfügbare Pets:]]></item>
+		<item name="wcf.page.bnet.tornamentregister.charerror"><![CDATA[Um am Turnier teilzunehmen benötigst du einen (niedrigstufigen Charakter auf der Forscherliga, Horde.]]></item>
+		<item name="wcf.page.bnet.tornamentregister.charerror.detail"><![CDATA[Wenn du einen neuen niedrigstufigen Charakter auf der Forscherliga oder die Nachtwache erstellt hast, dann klick bitte auf Daten aktualisieren.]]></item>
+		<item name="wcf.page.bnet.tornamentregister.charerror.button"><![CDATA[Daten aktualisieren]]></item>
+		<item name="wcf.page.bnet.tornamentregister.searchhint"><![CDATA[Suchbegriff]]></item>
+
+		<item name="wcf.page.bnet.tornamentregister.games"><![CDATA[Turnierspiele]]></item>
+		<item name="wcf.page.bnet.tornamentregister.gameview"><![CDATA[Alle Turnierspiele im Überblick:]]></item>
+
+		<item name="wcf.page.bnet.games.gameresult"><![CDATA[Ergebniss:]]></item>
+		<item name="wcf.page.bnet.games.aliaschar"><![CDATA[Kommt als:]]></item>
+
+		<item name="wcf.page.petbattle.achtelfinale"><![CDATA[Achtelfinale]]></item>
+		<item name="wcf.page.petbattle.viertelfinale"><![CDATA[Viertelfinale]]></item>
+		<item name="wcf.page.petbattle.halbfinale"><![CDATA[Halbfinale]]></item>
+		<item name="wcf.page.petbattle.finale"><![CDATA[Finale]]></item>
+		<item name="wcf.page.petbattle.kleinesfinale"><![CDATA[Semifinale]]></item>
+
+		<item name="wcf.page.petbattle.gruppeA"><![CDATA[Gruppe A]]></item>
+		<item name="wcf.page.petbattle.gruppeB"><![CDATA[Gruppe B]]></item>
+		<item name="wcf.page.petbattle.gruppeC"><![CDATA[Gruppe C]]></item>
+		<item name="wcf.page.petbattle.gruppeD"><![CDATA[Gruppe D]]></item>
+		<item name="wcf.page.petbattle.gruppeE"><![CDATA[Gruppe E]]></item>
+		<item name="wcf.page.petbattle.gruppeF"><![CDATA[Gruppe F]]></item>
+		<item name="wcf.page.petbattle.gruppeG"><![CDATA[Gruppe G]]></item>
+		<item name="wcf.page.petbattle.gruppeH"><![CDATA[Gruppe H]]></item>
+		<item name="wcf.page.petbattle.gruppeI"><![CDATA[Gruppe I]]></item>
+		<item name="wcf.page.petbattle.gruppeJ"><![CDATA[Gruppe J]]></item>
+		<item name="wcf.page.petbattle.gruppeK"><![CDATA[Gruppe K]]></item>
+		<item name="wcf.page.petbattle.gruppeL"><![CDATA[Gruppe L]]></item>
+		<item name="wcf.page.petbattle.gruppeM"><![CDATA[Gruppe M]]></item>
+		<item name="wcf.page.petbattle.gruppeM"><![CDATA[Gruppe N]]></item>
+		<item name="wcf.page.petbattle.gruppeO"><![CDATA[Gruppe O]]></item>
+		<item name="wcf.page.petbattle.gruppeP"><![CDATA[Gruppe P]]></item>
+
+		<item name="wcf.page.petbattle.MyAccount"><![CDATA[Mein Account]]></item>
+		<item name="wcf.page.petbattle.MyAccount.title"><![CDATA[Mein Account]]></item>
+		<item name="wcf.page.petbattle.MyAccount.content"><![CDATA[Mein Account]]></item>
+
+		<item name="wcf.page.petbattle.arsenal"><![CDATA[Arsenal]]></item>
+		<item name="wcf.page.petbattle.charakter"><![CDATA[Charakter]]></item>
+		<item name="wcf.page.petbattle.level"><![CDATA[Stufe]]></item>
+
+		<item name="wcf.page.petbattle.race1"><![CDATA[Mensch]]></item>
+		<item name="wcf.page.petbattle.race2"><![CDATA[Orc]]></item>
+		<item name="wcf.page.petbattle.race3"><![CDATA[Zwerg]]></item>
+		<item name="wcf.page.petbattle.race4"><![CDATA[Nachtelf]]></item>
+		<item name="wcf.page.petbattle.race5"><![CDATA[Untoter]]></item>
+		<item name="wcf.page.petbattle.race6"><![CDATA[Tauren]]></item>
+		<item name="wcf.page.petbattle.race7"><![CDATA[Gnom]]></item>
+		<item name="wcf.page.petbattle.race8"><![CDATA[Troll]]></item>
+		<item name="wcf.page.petbattle.race9"><![CDATA[Goblin]]></item>
+		<item name="wcf.page.petbattle.race10"><![CDATA[Blutelf]]></item>
+		<item name="wcf.page.petbattle.race11"><![CDATA[Draenei]]></item>
+		<item name="wcf.page.petbattle.race22"><![CDATA[Worgen]]></item>
+		<item name="wcf.page.petbattle.race24"><![CDATA[Pandaren]]></item>
+		<item name="wcf.page.petbattle.race25"><![CDATA[Pandaren]]></item>
+		<item name="wcf.page.petbattle.race26"><![CDATA[Pandaren]]></item>
+		
+		<item name="wcf.page.petbattle.class1"><![CDATA[Krieger]]></item>
+		<item name="wcf.page.petbattle.class2"><![CDATA[Paladin]]></item>
+		<item name="wcf.page.petbattle.class3"><![CDATA[Jäger]]></item>
+		<item name="wcf.page.petbattle.class4"><![CDATA[Schurke]]></item>
+		<item name="wcf.page.petbattle.class5"><![CDATA[Priester]]></item>
+		<item name="wcf.page.petbattle.class6"><![CDATA[Todesritter]]></item>
+		<item name="wcf.page.petbattle.class7"><![CDATA[Schamane]]></item>
+		<item name="wcf.page.petbattle.class8"><![CDATA[Magier]]></item>
+		<item name="wcf.page.petbattle.class9"><![CDATA[Hexenmeister]]></item>
+		<item name="wcf.page.petbattle.class10"><![CDATA[Mönch]]></item>
+		<item name="wcf.page.petbattle.class11"><![CDATA[Druide]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.petbattle"><![CDATA[Battle.net Tool]]></item>
+		<item name="wcf.acp.option.category.petbattle.main"><![CDATA[Einstellungen]]></item>
+		<item name="wcf.acp.option.category.petbattle.main.bnet"><![CDATA[Battle.net Zugang]]></item>
+		<item name="wcf.acp.option.category.petbattle.api"><![CDATA[API Zugänge]]></item>
+		<item name="wcf.acp.option.category.petbattle.api.bnet"><![CDATA[battle.net API]]></item>
+		<item name="wcf.acp.option.category.petbattle.content"><![CDATA[Inhalte]]></item>
+
+		<item name="wcf.acp.option.petbattle_bnet_host"><![CDATA[battle.net URL]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_host.description"><![CDATA[battle.net für Arsenal]]></item>
+
+		<item name="wcf.acp.option.petbattle_bnet_language"><![CDATA[battle.net Sprache]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_language.description"><![CDATA[battle.net Sprache]]></item>
+
+		<item name="wcf.acp.option.petbattle_token_active"><![CDATA[WoW Token Preis anzeigen?]]></item>
+		<item name="wcf.acp.option.petbattle_token_active.description"><![CDATA[asdasdsa]]></item>
+
+
+		<item name="wcf.acp.option.petbattle_bnet_oauthclient"><![CDATA[battle.net API ClientID]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_oauthclient.description"><![CDATA[Wird benötigt um Charakterdaten zu laden]]></item>
+
+		<item name="wcf.acp.option.petbattle_bnet_oauthsecret"><![CDATA[battle.net API SecretID]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_oauthsecret.description"><![CDATA[Wird benötigt um Charakterdaten zu laden]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_host"><![CDATA[Battle.net Host]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_host.description"><![CDATA[lalala]]></item>
+		<item name="wcf.acp.option.petbattle_show_colored_classes"><![CDATA[Klassenfarben farbig darstellen]]></item>
+		<item name="wcf.acp.option.petbattle_show_colored_classes.description"><![CDATA[Kann in manchen Designs zu Problemen führen.]]></item>
+
+		<item name="wcf.acp.option.petbattle_bnet_api_active"><![CDATA[battle.net API benutzen]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_active.description"><![CDATA[Wird benötigt um Charakterdaten zu laden]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_saveasset"><![CDATA[Bilder zwischenspeichern]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_saveasset.description"><![CDATA[umgeht SSL Fehler und verbessert die Ladegeschwindigket, benötigt aber mehr Speicherplatz]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_key"><![CDATA[battle.net API key]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_key.description"><![CDATA[bekommt man hier: https://dev.battle.net/apps/mykeys ]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_region"><![CDATA[battle.net Region]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_language"><![CDATA[battle.net Sprache]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_language.description"><![CDATA[Lokale Sprache auswählen]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_host"><![CDATA[battle.net API Host]]></item>
+		<item name="wcf.acp.option.petbattle_bnet_api_host.description"><![CDATA[findet man hier: https://dev.battle.net/ ]]></item>
+	</category>
+
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.battleTag"><![CDATA[bnet-tag]]></item>
+		<item name="wcf.user.option.charinfo"><![CDATA[Infos]]></item>
+		<item name="wcf.user.option.realm"><![CDATA[Realm]]></item>
+		<item name="wcf.user.option.arsenal"><![CDATA[Arsenal]]></item>
+		<item name="wcf.user.option.class"><![CDATA[Klasse]]></item>
+
+</category>
+
+	<category name="wcf.dashboard">
+		<item name="wcf.dashboard.box.petbattle.wowtoken"><![CDATA[Token]]></item>
+		<item name="wcf.dashboard.box.petbattle.wowtokencontent"><![CDATA[WoW Token]]></item>
+		<item name="wcf.dashboard.box.petbattle.wowtoken_price"><![CDATA[Tokenpreis]]></item>
+		<item name="wcf.dashboard.box.petbattle.wowtoken_24max"><![CDATA[24h Maxiumun]]></item>
+		<item name="wcf.dashboard.box.petbattle.wowtoken_24min"><![CDATA[24h Minimum]]></item>
+		<item name="wcf.dashboard.box.petbattle.wowtoken_last"><![CDATA[Aktualisiert]]></item>
+
+	</category>
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.petbattle"><![CDATA[Petbattle]]></item>
+		<item name="wcf.acp.group.option.category.mod.petbattle"><![CDATA[Petbattle]]></item>
+		<item name="wcf.acp.group.option.category.user.petbattle"><![CDATA[Petbattle]]></item>    
+		<item name="wcf.acp.group.option.user.petbattle.canEditOwnChar"><![CDATA[Kann eigenen Charaktere ändern]]></item>
+		<item name="wcf.acp.group.option.user.petbattle.canRegisterTournamaent"><![CDATA[Kann sich für Turniere anmelden]]></item>
+		<item name="wcf.acp.group.option.mod.petbattle.canViewPets"><![CDATA[Kann Pets aller Teilnehmer sehen]]></item>
+
+	</category>  
+</language>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/cronjob.xsd">
+	<import>
+		<cronjob>
+			<classname>wcf\system\cronjob\CharDataCronjob</classname>
+			<description><![CDATA[Bnet Tool Charupdate]]></description>
+			<description language="de"><![CDATA[Bnet Charupdate]]></description>
+			<startminute>*/15</startminute>
+			<starthour>*</starthour>
+			<startdom>*</startdom>
+			<startmonth>*</startmonth>
+			<startdow>*</startdow>
+			<canbeedited>1</canbeedited>
+			<canbedisabled>1</canbedisabled>
+			<isdisabled>1</isdisabled>
+		</cronjob>		
+		<cronjob>
+			<classname>wcf\system\cronjob\WoWTokenCronjob</classname>
+			<description><![CDATA[Bnet Tool WoW Token Update]]></description>
+			<description language="de"><![CDATA[Bnet Token Update]]></description>
+			<startminute>*/10</startminute>
+			<starthour>*</starthour>
+			<startdom>*</startdom>
+			<startmonth>*</startmonth>
+			<startdow>*</startdow>
+			<canbeedited>1</canbeedited>
+			<canbedisabled>1</canbedisabled>
+			<isdisabled>1</isdisabled>
+		</cronjob>		
+	</import>
+</data>

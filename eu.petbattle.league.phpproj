@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>eu.petbattle.league</Name>
+    <ProjectGuid>{d4516406-1ac2-487b-8bc8-d7c078067009}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lib\data\wow\battlepet\abbility\WoWPetAbbility.class.php" />
+    <Compile Include="lib\data\wow\battlepet\abbility\WoWPetAbbilityAction.class.php" />
+    <Compile Include="lib\data\wow\battlepet\abbility\WoWPetAbbilityDecorated.class.php" />
+    <Compile Include="lib\data\wow\battlepet\abbility\WoWPetAbbilityEditor.class.php" />
+    <Compile Include="lib\data\wow\battlepet\abbility\WoWPetAbbilityList.class.php" />
+    <Compile Include="lib\data\wow\battlepet\species\WoWPetSpecies.class.php" />
+    <Compile Include="lib\data\wow\battlepet\species\WoWPetSpeciesAction.class.php" />
+    <Compile Include="lib\data\wow\battlepet\species\WoWPetSpeciesDecorated.class.php" />
+    <Compile Include="lib\data\wow\battlepet\species\WoWPetSpeciesEditor.class.php" />
+    <Compile Include="lib\data\wow\battlepet\species\WoWPetSpeciesList.class.php" />
+    <Compile Include="templates\00neu.txt" />
+    <Compile Include="lib\data\wow\character\WoWCharacterAction.class.php" />
+    <Compile Include="lib\data\wow\character\WoWCharacter.class.php" />
+    <Compile Include="lib\data\wow\character\WoWCharacterDecorated.class.php" />
+    <Compile Include="lib\data\wow\character\WoWCharacterEditor.class.php" />
+    <Compile Include="lib\data\wow\character\WoWCharacterList.class.php" />
+    <Compile Include="lib\data\wow\battlepet\family\WoWPetFamily.class.php" />
+    <Compile Include="lib\data\wow\battlepet\family\WoWPetFamilyEditor.class.php" />
+    <Compile Include="lib\data\wow\battlepet\family\WoWPetFamilyAction.class.php" />
+    <Compile Include="lib\data\wow\battlepet\family\WoWPetFamilyList.class.php" />
+    <Compile Include="lib\data\wow\battlepet\family\WoWPetFamilyDecorated.class.php" />
+    <Compile Include="lib\data\wow\battlepet\WoWPetList.class.php" />
+    <Compile Include="lib\data\wow\battlepet\WoWPetAction.class.php" />
+    <Compile Include="lib\data\wow\battlepet\WoWPetDecorated.class.php" />
+    <Compile Include="lib\data\wow\battlepet\WoWPet.class.php" />
+    <Compile Include="lib\data\wow\battlepet\WoWPetEditor.class.php" />
+    <Compile Include="lib\data\wow\realm\WoWCharacterAction.class.php" />
+    <Compile Include="lib\data\wow\realm\WoWCharacter.class.php" />
+    <Compile Include="lib\data\wow\realm\WoWCharacterDecorated.class.php" />
+    <Compile Include="lib\data\wow\realm\WoWCharacterEditor.class.php" />
+    <Compile Include="lib\data\wow\realm\WoWCharacterList.class.php" />
+    <Compile Include="lib\data\wow\gameevent\WoWGameEventDecorated.class.php" />
+    <Compile Include="lib\data\wow\gameevent\WoWGameEventEditor.class.php" />
+    <Compile Include="lib\data\wow\gameevent\WoWGameEvent.class.php" />
+    <Compile Include="lib\data\wow\gameevent\WoWGameEventList.class.php" />
+    <Compile Include="lib\data\wow\gameevent\WoWGameEventAction.class.php" />
+    <Compile Include="lib\data\league\game\pool\GamePool.class.php" />
+    <Compile Include="lib\data\league\game\pool\GamePoolList.class.php" />
+    <Compile Include="lib\data\league\game\pool\GamePoolDecorated.class.php" />
+    <Compile Include="lib\data\league\game\pool\GamePoolEditor.class.php" />
+    <Compile Include="lib\data\league\game\pool\GamePoolAction.class.php" />
+    <Compile Include="lib\data\league\game\planned\PlannedGame.class.php" />
+    <Compile Include="lib\data\league\game\planned\PlannedGameDecorated.class.php" />
+    <Compile Include="lib\data\league\game\planned\PlannedGameEditor.class.php" />
+    <Compile Include="lib\data\league\game\planned\PlannedGameAction.class.php" />
+    <Compile Include="lib\data\league\game\planned\PlannedGameList.class.php" />
+    <Compile Include="lib\data\league\game\log\GameLogList.class.php" />
+    <Compile Include="lib\data\league\game\log\GameLogAction.class.php" />
+    <Compile Include="lib\data\league\game\log\GameLogDecorated.class.php" />
+    <Compile Include="lib\data\league\game\log\GameLog.class.php" />
+    <Compile Include="lib\data\league\game\log\GameLogEditor.class.php" />
+    <Compile Include="lib\data\league\game\matchday\MatchdayAction.class.php" />
+    <Compile Include="lib\data\league\game\matchday\MatchdayDecorated.class.php" />
+    <Compile Include="lib\data\league\game\matchday\Matchday.class.php" />
+    <Compile Include="lib\data\league\game\matchday\MatchdayList.class.php" />
+    <Compile Include="lib\data\league\game\matchday\MatchdayEditor.class.php" />
+    <Compile Include="lib\data\league\game\GameDecorated.class.php" />
+    <Compile Include="lib\data\league\game\Game.class.php" />
+    <Compile Include="lib\data\league\game\GameEditor.class.php" />
+    <Compile Include="lib\data\league\game\GameAction.class.php" />
+    <Compile Include="lib\data\league\game\GameList.class.php" />
+    <Compile Include="lib\data\league\country\CountryDecorated.class.php" />
+    <Compile Include="lib\data\league\country\CountryAction.class.php" />
+    <Compile Include="lib\data\league\country\Country.class.php" />
+    <Compile Include="lib\data\league\country\CountryEditor.class.php" />
+    <Compile Include="lib\data\league\country\CountryList.class.php" />
+    <Compile Include="lib\data\league\participation\Participation.class.php" />
+    <Compile Include="lib\data\league\participation\ParticipationEditor.class.php" />
+    <Compile Include="lib\data\league\participation\ParticipationDecorated.class.php" />
+    <Compile Include="lib\data\league\participation\ParticipationList.class.php" />
+    <Compile Include="lib\data\league\participation\ParticipationAction.class.php" />
+    <Compile Include="lib\data\league\LeagueEditor.class.php" />
+    <Compile Include="lib\data\league\LeagueDecorated.class.php" />
+    <Compile Include="lib\data\league\League.class.php" />
+    <Compile Include="lib\data\league\LeagueAction.class.php" />
+    <Compile Include="lib\data\league\LeagueList.class.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="language\" />
+    <Folder Include="lib\data\wow\battlepet\abbility\" />
+    <Folder Include="lib\data\wow\battlepet\species\" />
+    <Folder Include="sql\" />
+    <Folder Include="templates" />
+    <Folder Include="lib\util" />
+    <Folder Include="lib\data\wow\character" />
+    <Folder Include="lib\data\wow\battlepet\family" />
+    <Folder Include="lib\data\wow\battlepet" />
+    <Folder Include="lib\data\wow\realm" />
+    <Folder Include="lib\data\wow\gameevent" />
+    <Folder Include="lib\data\wow" />
+    <Folder Include="lib\data\league\game\pool" />
+    <Folder Include="lib\data\league\game\planned" />
+    <Folder Include="lib\data\league\game\log" />
+    <Folder Include="lib\data\league\game\matchday" />
+    <Folder Include="lib\data\league\game" />
+    <Folder Include="lib\data\league\country" />
+    <Folder Include="lib\data\league\participation" />
+    <Folder Include="lib\data\league" />
+    <Folder Include="lib\data" />
+    <Folder Include="lib" />
+    <Folder Include="xml\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="\dev\wsc\wsc 3.0.phpproj">
+      <Name>wsc 3.0</Name>
+      <Project>{45819885-77c6-47bd-9615-c23a9e8b77b5}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="language\de.xml" />
+    <Content Include="language\en.xml" />
+    <Content Include="language\fr.xml" />
+    <Content Include="sql\install.sql" />
+    <Content Include="xml\cronjob.xml" />
+    <Content Include="xml\dashboardBox.xml" />
+    <Content Include="xml\option.xml" />
+    <Content Include="xml\pageMenu.xml" />
+    <Content Include="xml\userGroupOption.xml" />
+    <Content Include="xml\useroption.xml" />
+  </ItemGroup>
+</Project>

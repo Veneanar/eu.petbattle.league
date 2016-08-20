@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/userOption.xsd">
+	<import>
+		<options>
+			<option name="battleTag">
+				<categoryname>profile.contact</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>7</showorder>
+				<editable>1</editable>
+				<visible>2</visible>
+				<searchable>0</searchable>
+			</option>
+			<option name="charinfo">
+				<categoryname>profile.personal</categoryname>
+				<optiontype>text</optiontype>
+				<outputclass>wcf\system\option\user\WowCharDetails</outputclass>
+				<showorder>2</showorder>
+				<editable>0</editable>
+				<visible>15</visible>
+				<searchable>0</searchable>
+			</option>
+			<option name="arsenal">
+				<categoryname>profile.personal</categoryname>
+				<optiontype>text</optiontype>
+				<outputclass>wcf\system\option\user\WowCharArsenal</outputclass>
+				<showorder>2</showorder>
+				<editable>0</editable>
+				<visible>15</visible>
+				<searchable>0</searchable>
+			</option>
+
+			<option name="realm">
+				<categoryname>profile.personal</categoryname>
+				<optiontype>integer</optiontype>
+				<outputclass>wcf\system\option\user\WoWRealm</outputclass>
+				<showorder>1</showorder>
+				<editable>0</editable>
+				<visible>15</visible>
+				<searchable>1</searchable>
+			</option>
+		</options>
+	</import>
+</data>
